@@ -1,0 +1,37 @@
+CPU(i5)でのテスト　約40分
+
+runfile('C:/Users/hkawaguc.ZENYAKU/GitHub/keras/examples/mnist_cnn.py', wdir='C:/Users/hkawaguc.ZENYAKU/GitHub/keras/examples')
+
+Using TensorFlow backend.
+Downloading data from https://s3.amazonaws.com/img-datasets/mnist.npz
+11493376/11490434 [==============================] - 6s 1us/step
+x_train shape: (60000, 28, 28, 1)
+60000 train samples
+10000 test samples
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/12
+60000/60000 [==============================] - 176s 3ms/step - loss: 0.2609 - acc: 0.9196 - val_loss: 0.0585 - val_acc: 0.9815
+Epoch 2/12
+60000/60000 [==============================] - 186s 3ms/step - loss: 0.0896 - acc: 0.9738 - val_loss: 0.0393 - val_acc: 0.9862
+Epoch 3/12
+60000/60000 [==============================] - 185s 3ms/step - loss: 0.0645 - acc: 0.9807 - val_loss: 0.0347 - val_acc: 0.9893
+Epoch 4/12
+60000/60000 [==============================] - 180s 3ms/step - loss: 0.0550 - acc: 0.9832 - val_loss: 0.0320 - val_acc: 0.9893
+Epoch 5/12
+60000/60000 [==============================] - 188s 3ms/step - loss: 0.0476 - acc: 0.9860 - val_loss: 0.0316 - val_acc: 0.9898
+Epoch 6/12
+60000/60000 [==============================] - 180s 3ms/step - loss: 0.0415 - acc: 0.9876 - val_loss: 0.0345 - val_acc: 0.9886
+Epoch 7/12
+60000/60000 [==============================] - 202s 3ms/step - loss: 0.0368 - acc: 0.9888 - val_loss: 0.0296 - val_acc: 0.9905
+Epoch 8/12
+60000/60000 [==============================] - 231s 4ms/step - loss: 0.0339 - acc: 0.9896 - val_loss: 0.0285 - val_acc: 0.9907
+Epoch 9/12
+60000/60000 [==============================] - 212s 4ms/step - loss: 0.0312 - acc: 0.9904 - val_loss: 0.0279 - val_acc: 0.9911
+Epoch 10/12
+60000/60000 [==============================] - 207s 3ms/step - loss: 0.0288 - acc: 0.9914 - val_loss: 0.0253 - val_acc: 0.9925
+Epoch 11/12
+60000/60000 [==============================] - 203s 3ms/step - loss: 0.0266 - acc: 0.9917 - val_loss: 0.0260 - val_acc: 0.9923
+Epoch 12/12
+60000/60000 [==============================] - 198s 3ms/step - loss: 0.0261 - acc: 0.9921 - val_loss: 0.0262 - val_acc: 0.9922
+Test loss: 0.02621322588085641
+Test accuracy: 0.9922

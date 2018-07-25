@@ -1,3 +1,6 @@
 ﻿.ipynb_checkpoints/*
 *.log
 demo/.ipynb_checkpoints/*
+*.bin
+*.json
+*.hdf5

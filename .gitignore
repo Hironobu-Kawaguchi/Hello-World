@@ -1,5 +1,7 @@
 ﻿.ipynb_checkpoints/*
 demo/.ipynb_checkpoints/*
+__*
+__pycache__/*
 *.log
 *.bin
 *.json

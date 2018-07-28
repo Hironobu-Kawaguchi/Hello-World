@@ -1,6 +1,8 @@
 ﻿.ipynb_checkpoints/*
-*.log
 demo/.ipynb_checkpoints/*
+*.log
 *.bin
 *.json
 *.hdf5
+*.jpg
+*.gz

@@ -1,6 +1,5 @@
 ﻿.ipynb_checkpoints/*
 */.ipynb_checkpoints/*
-
 __*
 __pycache__/*
 *.log
@@ -9,3 +8,4 @@ __pycache__/*
 *.hdf5
 *.jpg
 *.gz
+*.zip

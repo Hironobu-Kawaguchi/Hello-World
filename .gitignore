@@ -10,3 +10,5 @@ __pycache__/*
 *.gz
 *.zip
 mnist_result/*
+*.pkl
+kikagaku_blackbox_2/housing.csv

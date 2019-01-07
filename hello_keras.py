@@ -1,7 +1,7 @@
 import keras
 
 def main():
-    print("Hello TensorFlow")
+    print("Hello keras")
     print("keras.__version__", keras.__version__)
 
 if __name__ == '__main__':

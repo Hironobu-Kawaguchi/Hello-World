@@ -12,3 +12,4 @@ __pycache__/*
 mnist_result/*
 *.pkl
 kikagaku_blackbox_2/housing.csv
+/results/

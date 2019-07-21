@@ -13,8 +13,6 @@ logger = getLogger(__name__)
 def main(args):
     # Create directories if not exist.
     logger.debug('start')
-    if not os.path.exists(args.result_dir):
-        os.makedirs(args.result_dir)
     logger.debug('end')
 
     return
@@ -29,8 +27,9 @@ if __name__ == '__main__':
     parser.add_argument('--foobar', action='store_true')    # default -> False, --foobar  -> True
     parser.add_argument('--foonley', action='store_false')  # default -> True,  --foonley -> False
     args = parser.parse_args()
-    if args.verbose:
-        print(args)
+
+    if not os.path.exists(args.result_dir):
+        os.makedirs(args.result_dir)
 
     log_fmt = Formatter('%(asctime)s %(name)s %(lineno)d [%(levelname)s][%(funcName)s] %(message)s ')
     handler = StreamHandler()
@@ -45,6 +44,7 @@ if __name__ == '__main__':
     logger.addHandler(handler)
 
     logger.info('start')
+    logger.debug(args)
 
     np.random.seed(args.seed)
     logger.debug('np.random.seed: {}'.format(args.seed))

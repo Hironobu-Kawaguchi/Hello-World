@@ -5,7 +5,8 @@
 #include <algorithm>
 #include <mpi.h>
 
-const int TRIAL = 100000;
+// const int TRIAL = 100000;
+const int TRIAL = 10000000;
 
 double calc_pi(const int seed) {
   std::mt19937 mt(seed);
